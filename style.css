@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+html{
+  font-size: 14px;
+  font-family:'Montserrat', sans-serif;
+}
+
+body{
+  background-color: beige;
+  text-align:center;
+}
+body ul,h1, h2, h3, h4, h5, h6, p {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+a:hover{
+  color:red;
+}
+
+#header{
+  background-color: white;
+  background-position: center;
+  height:50px;
+
+/* Add? */
+  display: flex;
+  margin: inherit;
+  text-align: left;
+}
+
+#nav ul{
+  text-align: left;
+}
+
+#nav ul li{
+  background-color: lightblue;
+  filter: drop-shadow(2px 2px 4px #000000);
+  padding: 10px;
+  margin: auto 10px;
+  display: inline-block;
+}
+
+#nav ul li:hover{
+  background:pink
+}
+
+.images {
+  min-width: 500px;
+  max-width: 900px;
+  display: flex;
+  margin: inherit;
+  text-align: left;
+}
+
+/* .title {
+  background-color: lightblue;
+  background-position: center;
+  height:35px;
+  text-align: center;
+} */
+
+.title video {
+  background-color: white;
+  background-position: center;
+  width: 2000;
+  margin: auto;
+  display: block;
+  /* text-align: center;  */
+  width: 900;
+  margin: auto;
+  display: block;
+
+}
+
+.creators{
+  position: static;
+  display:flex;
+  padding: 15px;
+  margin:40px;
+  filter: drop-shadow(2px 2px 4px #000000);
+  background-color: pink;
+}
+
+.desc{
+  padding: 20px;
+  font-weight: bolder;
+  font-size:4rem;
+
+}
+
+.desc h5{
+  font-size:3rem;
+  margin-top: 5px;
+  text-align: center;
+}
+
+
+#footer{
+  /* position: fixed; */
+  display:flex;
+  padding: 5px;
+  background-color: orange;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+#footer-space{
+  flex-grow: 4;
+}
+
+#copyright{
+  text-align: right;
+}
