@@ -67,7 +67,7 @@ a:hover{
   text-align: center;
 } */
 
-.title video {
+.section1 video {
   background-color: white;
   background-position: center;
   width: 2000;
@@ -80,7 +80,7 @@ a:hover{
 
 }
 
-.creators{
+.section2{
   position: static;
   display:flex;
   padding: 15px;
@@ -102,6 +102,12 @@ a:hover{
   text-align: center;
 }
 
+.desc p{
+  font-size:1.6rem;
+  margin-top: 5px;
+  text-align: center;
+}
+
 
 #footer{
   /* position: fixed; */
@@ -110,12 +116,4 @@ a:hover{
   background-color: orange;
   font-weight: bolder;
   font-size: 15px;
-}
-
-#footer-space{
-  flex-grow: 4;
-}
-
-#copyright{
-  text-align: right;
 }

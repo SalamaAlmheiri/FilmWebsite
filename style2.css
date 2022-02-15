@@ -31,9 +31,9 @@ a:hover{
   height:50px;
   text-align: center;
 
-  /* display: flex;
+  display: flex;
   margin: inherit;
-  text-align: left; */
+  text-align: left;
 }
 
 #nav ul{
