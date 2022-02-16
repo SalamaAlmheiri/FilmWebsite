@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <title>EXPO 2020 Film | Main</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
   </head>
-  <body>
-    <div class="header">
-      <div class="nav main-nav">
+    <div id="header">
+      <div id="nav">
         <ul>
           <li><a href="mainPage.html">EXPO Film</a></li>
           <li><a href="aboutPage.html">About</a></li>
@@ -18,6 +18,7 @@
       </div>
     </div>
 
+<body>
 <div class="wrapper">
   <div id="main">
     <div class="images">
@@ -37,8 +38,8 @@
 
     <div class="section">
       <!-- The film will play here: -->
-      <video height="630" src="30MFF.mp4" autoplay poster="posterimage.jpg">
-        Film here:
+      <video id="film" height="630" src="30MFF.mp4"> </video>
+
     </div>
 
     <div class="section">
