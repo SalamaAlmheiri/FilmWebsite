@@ -1,14 +1,53 @@
+//// "About" page Javascript
 
 
+/////Morocco
+var moroccoOverlay= document.getElementById('morocco-overlay');
+var morocco= document.getElementById('morocco');
 
-var overlay= document.querySelector('.overlay');
-var popup= document.getElementById('popup');
-
-popup.addEventListener('click', function(e){
-  console.log(e);
-  overlay.style.display="block";
+morocco.addEventListener('click', function(e){
+  moroccoOverlay.style.visibility="visible";
 });
 
-overlay.addEventListener('click', function(){
-  overlay.style.display="none";
+moroccoOverlay.addEventListener('click', function(){
+  moroccoOverlay.style.visibility="hidden";
+});
+
+
+////Saudiarabia
+var saudiarabiaOverlay= document.getElementById('saudiarabia-overlay');
+var saudiarabia= document.getElementById('saudiarabia');
+
+saudiarabia.addEventListener('click', function(e){
+  saudiarabiaOverlay.style.visibility="visible";
+});
+
+saudiarabiaOverlay.addEventListener('click', function(){
+  saudiarabiaOverlay.style.visibility="hidden";
+});
+
+
+/////Singapore
+var singaporeOverlay= document.getElementById('singapore-overlay');
+var singapore= document.getElementById('singapore');
+
+singapore.addEventListener('click', function(e){
+  singaporeOverlay.style.visibility="visible";
+});
+
+singaporeOverlay.addEventListener('click', function(){
+  singaporeOverlay.style.visibility="hidden";
+});
+
+
+/////Belgium
+var belgiumOverlay= document.getElementById('belgium-overlay');
+var belgium= document.getElementById('belgium');
+
+belgium.addEventListener('click', function(e){
+  belgiumOverlay.style.visibility="visible";
+});
+
+belgiumOverlay.addEventListener('click', function(){
+  belgiumOverlay.style.visibility="hidden";
 });
