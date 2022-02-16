@@ -33,16 +33,16 @@ a:hover{
 #header {
   background-image: url("30MFF.mp4");
   background-position: center;
-  height:50px;
+  height:70px;
   text-align: center;
 }
 
 .title{
   display:inline-block;
-  text-align: center; /* this is not working? */
+  text-align: center;
   padding: 0;
-  margin:0;
-  font-size:1em;
+  margin:10px;
+  font-size:1.2em;
 }
 
 #nav ul{
@@ -65,10 +65,11 @@ a:hover{
   position: absolute;
 }
 
+/* 2 SECTIONS */
 .section{
   display:flex;
   padding: 30px;
-  margin:40px;
+  margin: 40px;
   filter: drop-shadow(2px 2px 4px #000000);
   background-color: pink;
   max-width: 1000px;
@@ -76,24 +77,26 @@ a:hover{
 
 .about-title{
   margin-top: 13px;
-text-align: left;
-margin-right: 40px;
-font-size: 1.9em;
+  text-align: left;
+  margin-right: 40px;
+  font-size: 1.9em;
 }
 
 .desc{
-margin-left: :40px;
-text-align: left;
-font-size: 1.6em;
+  margin-left: 30px;
+  margin-top: 30px;
+  text-align: left;
+  font-size: 1.6em;
 }
 
 .desc2{
-margin-left: :40px;
-margin-top: 20px;
-text-align: left;
-font-size: 1.6em;
+  margin-left: :40px;
+  margin-top: 25px;
+  text-align: left;
+  font-size: 1.6em;
 }
 
+/* COUNTRIES */
 .countries{
   display: flex;
   flex-wrap: wrap;
@@ -121,10 +124,6 @@ font-size: 1.6em;
   margin:40px;
   visibility: hidden;
   position: relative;
-  /* display:none;
-  position: fixed;
-  width: 50%;
-  height: 20%; */
   background-color: white;
   filter: drop-shadow(2px 2px 4px #000000);
   align-items: center;
@@ -139,11 +138,11 @@ font-size: 1.6em;
 
 /* FOOTER */
 .footer{
-position: static; /* was: absolute; */
-bottom: 0;
-width: 100%;
-background-color: orange;
-padding: .25em 0;
+  position: static;
+  bottom: 0;
+  width: 100%;
+  background-color: lightblue;
+  padding: .25em 0;
 }
 
 .main-footer-container{
@@ -158,6 +157,11 @@ padding: .25em 0;
 }
 
 .footer img{
+  margin-top: 5px;
   width 4px;
   height 4px;
+}
+
+.footer ul{
+  display: flex;
 }

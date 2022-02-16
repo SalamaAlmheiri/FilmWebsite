@@ -33,7 +33,7 @@ a:hover{
 #header {
   background-color: white;
   background-position: center;
-  height:50px;
+  height:70px;
   text-align: center;
 }
 
@@ -41,9 +41,9 @@ a:hover{
   display:inline-block;
   text-align: center;
   padding: 0;
-  margin:0;
+  margin:10px;
   top: 0;
-  font-size:1em;
+  font-size:1.2em;
 }
 
 #nav ul{
@@ -66,20 +66,11 @@ a:hover{
   position: absolute;
 }
 
-.images {
-  margin: 20px 0 0 0;
+#images {
+  margin: 0px 0 0 0;
   min-width: 500px;
   max-width: 900px;
   display: flex;
-}
-
-.section1{
-  /* button */
-  /* padding: 7px;
-  margin: 40px;
-  filter: drop-shadow(2px 2px 4px #000000);
-  background-color: pink;
-  display: inline; */
 }
 
 .section{
@@ -89,6 +80,11 @@ a:hover{
   margin:20px 40px 60px;
   filter: drop-shadow(2px 2px 4px #000000);
   background-color: pink;
+}
+
+.section1 ul li{
+  display:  inline-block;
+  text-align: center;
 }
 
 /* .section video {
@@ -105,7 +101,13 @@ a:hover{
 } */
 
 .play{
-  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.stop{
   width: 100%;
   text-align: center;
   font-weight: bold;
@@ -118,19 +120,39 @@ a:hover{
   width: 80px;
   height: 80px;
   margin: 20px;
-  padding: .67em;
+  padding: 2px 2px;
   cursor: pointer;
+}
+
+.btn2{
+  text-align: center;
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  padding: 2px 2px;
+  cursor: pointer;
+}
+
+.btn-header{
+  color: lightblue;
+  font-size: 2em;
+  border: 2px solid grey;
   border-radius: 50%;
-  border-color: white;
+  background-color: white;
 }
 
 .btn:hover{
-  background-color: orange;
+  background-color: salmon;
+}
+
+.btn2:hover{
+  background-color: salmon;
 }
 
 .desc{
-  margin: 0 auto;
-  padding: 40px;
+  margin: auto 10px;
+  padding: 20px;
   font-weight: bolder;
   font-size:4rem;
   text-align: center;
@@ -138,7 +160,7 @@ a:hover{
 
 .desc h5{
   font-size:3rem;
-  text-align: left;
+  text-align: center;
 }
 
 .desc p{
@@ -149,7 +171,7 @@ a:hover{
 
 /* FOOTER */
 .footer{
-background-color: orange;
+background-color: lightblue;
 padding: .25em 0;
 }
 
@@ -165,6 +187,11 @@ padding: .25em 0;
 }
 
 .footer img{
+  margin-top: 5px;
   width 4px;
   height 4px;
+}
+
+.footer ul{
+  display: flex;
 }
