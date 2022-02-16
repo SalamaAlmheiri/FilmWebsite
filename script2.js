@@ -1,5 +1,4 @@
-//// "About" page Javascript
-
+////ABOUT PAGE JSCRIPT
 
 /////Morocco
 var moroccoOverlay= document.getElementById('morocco-overlay');

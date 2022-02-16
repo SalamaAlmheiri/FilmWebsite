@@ -1,4 +1,4 @@
-///// Main page Javascript
+////MAIN PAGE JSCRIPT
 
 //Play
 var button= document.querySelector('.btn');

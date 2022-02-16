@@ -1,5 +1,5 @@
+/* MAIN PAGE STYLESHEET */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
 
 html{
   font-size: 14px;
@@ -73,33 +73,7 @@ a:hover{
   display: flex;
 }
 
-.section{
-  position: relative;
-  display: flow-root;
-  padding: 25px 0;
-  margin:20px 40px 60px;
-  filter: drop-shadow(2px 2px 4px #000000);
-  background-color: pink;
-}
-
-.section1 ul li{
-  display:  inline-block;
-  text-align: center;
-}
-
-/* .section video {
-  background-color: white;
-  background-position: center;
-  width: 2000;
-  margin: auto;
-  display: block;
-  text-align: center;
-  width: 1200;
-  height: 300;
-  margin: auto;
-  display: flex;
-} */
-
+/* BUTTONS */
 .play{
   width: 100%;
   text-align: center;
@@ -150,6 +124,21 @@ a:hover{
   background-color: salmon;
 }
 
+/* 2 SECTIONS (video, directors)*/
+.section{
+  position: relative;
+  display: flow-root;
+  padding: 25px 0;
+  margin:20px 40px 60px;
+  filter: drop-shadow(2px 2px 4px #000000);
+  background-color: pink;
+}
+
+.section1 ul li{
+  display:  inline-block;
+  text-align: center;
+}
+
 .desc{
   margin: auto 10px;
   padding: 20px;
@@ -171,8 +160,8 @@ a:hover{
 
 /* FOOTER */
 .footer{
-background-color: lightblue;
-padding: .25em 0;
+  background-color: lightblue;
+  padding: .25em 0;
 }
 
 .main-footer-container{
