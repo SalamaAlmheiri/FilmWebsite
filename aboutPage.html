@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>EXPO 2020 Film | About</title>
     <link rel="stylesheet" href="style2.css">
+    <script src="script2.js" defer></script>
   </head>
-  <body>
     <div id="header">
       <div id="nav">
         <ul>
@@ -13,57 +13,62 @@
           <li><a href="aboutPage.html">About</a></li>
         </ul>
       </div>
-      <h1><i>Our Experience at EXPO 2020</i></h1>
+      <div class="title">
+        <h1><i>Our Experience at EXPO 2020</i></h1>
+      </div>
     </div>
 
+<body>
 <div class="wrapper">
   <div id="main">
 
     <div class="section">
-      <h2>About the Film</h2>
-      <p><i>Our Experience at EXPO 2020</i> is a film created during NYUAD 30 Minutes Film Festival for NYUAD.</p>
+      <div class="about-title">
+          <h2>About the Film</h2>
+      </div>
+      <div class="desc">
+        <p><i>Our Experience at EXPO 2020</i> is a film created during NYUAD 30 Minutes Film Festival for NYUAD.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
+      </div>
     </div>
 
     <!-- Circles with pictures of places we visited. When clicked, info will show about the place. -->
-    <div class="section">
+    <div class="countries">
         <div>
-          <div>
-            <strong>Morocco</strong>
-          </div>
-          <img height="100" src="ExpoImg/morocco.jpg" alt="image1">
+          <span class="country-name">Morocco</span>
+          <img class="country-img" height="100" src="ExpoImg/morocco.jpg" alt="image1">
         </div>
         <div>
-          <div>
-            <strong>Saudiarabia</strong>
-          </div>
-          <img height="100" src="ExpoImg/saudi.jpg" alt="image2">
-          </div>
-          <div>
-            <div>
-              <strong>Singapore</strong>
-            </div>
-          <img height="100" src="ExpoImg/singapore.jpg" alt="image3">
-          </div>
-          <div>
-            <div>
-              <strong>Belguim</strong>
-            </div>
-          <img height="100" src="ExpoImg/belguim.jpg" alt="image4">
-          </div>
-
+          <span class="country-name">Saudiarabia</span>
+          <img class="country-img" height="100" src="ExpoImg/saudi.jpg" alt="image2">
         </div>
+        <div>
+          <span class="country-name">Singapore</span>
+          <img class="country-img" height="100" src="ExpoImg/singapore.jpg" alt="image3">
+        </div>
+        <div>
+          <span class="country-name">Belguim</span>
+          <img class="country-img" height="100" src="ExpoImg/belguim.jpg" alt="image4">
+        </div>
+      </div>
 
       </div>
     </div>
 
+    <div class="overlay">
+      hello!
+    </div>
 
-  <div id="footer">
-    <h3> <i>Footer: Our Experience at EXPO 2020. </i><h3>
-      <p> (c) copyright Salama CommLab 2022</p>
-      <ul>
-        <li> <a href="https://youtube.com" target="_blank"> <img height="40" src="ExpoImg/youtube.png" alt="youtube"></a></li>
-      </ul>
-  </div>
+
+    <div class="footer">
+      <div class="container main-footer-container">
+      <h3> <i>Our Experience at EXPO 2020</i><h3>
+        <ul>
+          <li> <a href="https://youtube.com" target="_blank"> <img height="60" src="ExpoImg/youtube.png" alt="youtube"></a></li>
+        </ul>
+        </div>
+    </div>
 
   </body>
 </html>
